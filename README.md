@@ -1,3 +1,5 @@
+React App to showcase portfolio.
+
 Portfolio index: 
 
 - Static HTML and CSS landing page.
