@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
 
-const Home = () => {
+const AboutMe = () => {
     return (
         <Container className=''>
-            <h1>I'm the Home page</h1>
+            <h1>I'm the About me page</h1>
         </Container>
     )
 };
 
-export default Home;
+export default AboutMe;

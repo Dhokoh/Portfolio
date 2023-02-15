@@ -1,6 +1,9 @@
+/*Header*/
+
 .headerNav{
-  background-color: #28272bee !important;
+  background-color: #d16908ee !important;
   padding: 25px;
+  display: flex !important;
 }
 .navBrand{
   color: #ffffff !important;
@@ -9,14 +12,44 @@
 }
 .navLink{
   color: #ffffff !important;
+  padding: 10px !important;
 }
+.brandLink:visited{
+  color: #ffffff;
+  text-decoration: none !important;
+}
+.brandLink:link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Footer*/
+
 .socialMediaContainer{
-  background-color: #5e616e;
-  padding: 25px;
+  display: flex;
+  background-color: #1c3191 !important;
+  padding: 25px !important;
+  color: #ffffff !important;
+  width: 100% !important;
 }
+
 .footerH5{
   color: #ffffff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: 10px;
+}
+.svgIcon{
+  margin: 10px;
+}
+.svgIcon:link{
+  color: #ffffff;
+  text-decoration: none;
+}
+.svgIcon:visited{
+  color: #9b8787;
+}
+.svgIcon:active{
+  color: #ffffff;
 }
 .footerLink:visited{
   color: #ffffff !important;
@@ -29,4 +62,11 @@
   color: #ffffff !important;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Home*/
+.homeMainDiv{
+  height: 100%;
+  width: 100%;
+  background-color: blue !important;
 }

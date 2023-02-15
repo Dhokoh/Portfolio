@@ -1,19 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Nav } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
     return (
-        <div className='headerNav container-fluid fixed-top'>
-            <nav className='navbar navbar-expand-lg'>
-                <div className='navBrand navbar-brand'>
-                    Portfolio
-                </div>
-                <div className='navbar-nav'>
-                    <a className='nav-link text-end navLink' href='/'> About me </a>
-                    <a className='nav-link text-end navLink' href='/'> Portfolio </a>
-                    <a className='nav-link text-end navLink' href='/'> Contact </a>
-                </div>
-            </nav>
-        </div>
+        <>
+            <Navbar className='headerNav justify-content-center'>
+                <Navbar.Brand className='navBrand'>Portfolio</Navbar.Brand>
+                <LinkContainer to="/">
+                    <Nav.Link className='navLink' id='headerHome'>Home</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to='/aboutme'>
+                    <Nav.Link className='navLink' id='headerProducts'>About me</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to='/portfolio'>
+                    <Nav.Link className='navLink' id='headerLogin'>Portfolio</Nav.Link>
+                </LinkContainer>
+            </Navbar>
+        </>
     )
 };
 
