@@ -1,7 +1,7 @@
 /*Header*/
 
 .headerNav{
-  background-color: #d16908ee !important;
+  background-color: #bb5d05ee !important;
   padding: 25px;
   display: flex !important;
 }
@@ -27,12 +27,11 @@
 
 .socialMediaContainer{
   display: flex;
-  background-color: #1c3191 !important;
+  background-color: #22097a !important;
   padding: 25px !important;
   color: #ffffff !important;
   width: 100% !important;
 }
-
 .footerH5{
   color: #ffffff;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -65,8 +64,19 @@
 }
 
 /*Home*/
-.homeMainDiv{
-  height: 100%;
-  width: 100%;
-  background-color: blue !important;
+
+.homeTitle{
+  color: #2d5ec7;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 45px;
+}
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeSubtitle{
+  color: #2d5ec7;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 10px;
 }

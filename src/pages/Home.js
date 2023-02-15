@@ -3,8 +3,16 @@ import {Container} from 'react-bootstrap';
 
 const Home = () => {
     return (
-        <Container className=''>
-            <h1>I'm the Home page</h1>
+        <Container className='homeContainer'>
+            <h1 className='homeTitle'>Welcome to my page</h1>
+            <Container className=''>
+                <img src={require('../images/backgroundImage.png')}></img>
+                <img src={require('../images/backgroundImage.png')}></img>
+                
+            </Container>
+            <Container>
+                <h3 className='homeSubtitle'>Here you'll find projects I've worked on, my aspirations as a MERN Fullstack Web Developer, my skills, and basically get to know me, as well as my learning path.</h3>
+            </Container>
         </Container>
     )
 };

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <Navbar className='headerNav justify-content-center'>
-                <Navbar.Brand className='navBrand'>Portfolio</Navbar.Brand>
+                <Navbar.Brand className='navBrand'>David Ho - MERN Fullstack Web Dev</Navbar.Brand>
                 <LinkContainer to="/">
                     <Nav.Link className='navLink' id='headerHome'>Home</Nav.Link>
                 </LinkContainer>
