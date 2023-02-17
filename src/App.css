@@ -28,7 +28,7 @@
 .socialMediaContainer{
   display: flex;
   background-color: #22097a !important;
-  padding: 25px !important;
+  /* padding: 25px !important; */
   color: #ffffff !important;
   width: 100% !important;
 }
@@ -68,15 +68,55 @@
 .homeTitle{
   color: #2d5ec7;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-top: 45px;
+  padding-top: 15px;
 }
 .homeContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+.homeImg{
+  width: fit-content;
+  height: 400px;
 }
 .homeSubtitle{
   color: #2d5ec7;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 10px;
+}
+
+/*About me*/
+
+.aboutMeH3{
+  color: #2d5ec7;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 15px;
+}
+.aboutMeP{
+  color: #3069e6;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 15px;
+}
+.aboutMeH5{
+  color: #2d5ec7;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 15px;
+}
+.profileImg{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px; 
+}
+.aboutMeCard{
+  margin: 75px;
+}
+.softSkillsFigures{
+  margin-right: 15px;
+}
+.cardsContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.cardTitle{
+  color: #2d5ec7;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
