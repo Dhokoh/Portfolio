@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Card } from 'react-bootstrap';
+import { Container, Card, Row} from 'react-bootstrap';
 
 const AboutMe = () => {
     return (
         <Container className='container-fluid'>
-            <Container>
-                <img className='profileImg' src={require('../images/dhopicture.jpg')}></img>
-            </Container>
+            <Row className='justify-content-md-center'>
+                <img className='profileImg' src={require('../images/dhopicture.jpg')} alt='profile'></img>
+            </Row>
             <h3 className='aboutMeH3'>About me</h3>
             <p className='aboutMeP'>I'm a MERN fullstack web developer who is passionate about coding
                 and loves a good challenge. My skillset includes soft skills that,
@@ -62,24 +62,45 @@ const AboutMe = () => {
                 </Card>
             </Container>
 
-            <h5 className='aboutMeH5'>Technical skills</h5>
+            <h5 className='aboutMeH5'>Technical skills or techologies I've worked with</h5>
             <Container className='cardsContainer'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={require('../images/English.png')} />
+                    <Card.Img variant="top" src={require('../images/HTMLlogo.png')} />
                     <Card.Body>
-                        <Card.Title className='cardTitle'>English</Card.Title>
+                        <Card.Title className='cardTitle'>HTML and CSS</Card.Title>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={require('../images/Mandarin.png')} />
+                    <Card.Img variant="top" src={require('../images/Cprogramming.png')} />
                     <Card.Body>
-                        <Card.Title className='cardTitle'>Traditional Chinese</Card.Title>
+                        <Card.Title className='cardTitle'>C - Programming Language</Card.Title>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={require('../images/Communication.png')} />
+                    <Card.Img variant="top" src={require('../images/javascript.png')} />
                     <Card.Body>
-                        <Card.Title className='cardTitle'>Communication skills</Card.Title>
+                        <Card.Title className='cardTitle'>Javascript</Card.Title>
+                    </Card.Body>
+                </Card>
+            </Container>
+
+            <Container className='cardsContainer'>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={require('../images/Csharp.png')} />
+                    <Card.Body>
+                        <Card.Title className='cardTitle'>C#</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={require('../images/python.png')} />
+                    <Card.Body>
+                        <Card.Title className='cardTitle'>Python</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={require('../images/Unity.png')} />
+                    <Card.Body>
+                        <Card.Title className='cardTitle'>Unity</Card.Title>
                     </Card.Body>
                 </Card>
             </Container>

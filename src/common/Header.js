@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 const Header = () => {
     return (
         <>
-            <Navbar className='headerNav justify-content-center'>
+            <Navbar className='headerNav justify-content-center' fixed='top' >
                 <Navbar.Brand className='navBrand'>David Ho - MERN Fullstack Web Dev</Navbar.Brand>
                 <LinkContainer to="/">
                     <Nav.Link className='navLink' id='headerHome'>Home</Nav.Link>
