@@ -40,7 +40,7 @@ const Portfolio = () => {
                             Visit project here: {'<project link goes here>'}
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="1">
+                    <Accordion.Item eventKey="2">
                         <Accordion.Header>API consumption</Accordion.Header>
                         <Accordion.Body>
                             Basic API consumption interface. <tr></tr>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                             Visit project here: {'<project link goes here>'}
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="1">
+                    <Accordion.Item eventKey="3">
                         <Accordion.Header>React front end restaurant app</Accordion.Header>
                         <Accordion.Body>
                             Basic front end restaurant application with some backend interaction. <tr></tr>
@@ -78,7 +78,7 @@ const Portfolio = () => {
                             Visit project here: {'<project link goes here>'}
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="1">
+                    <Accordion.Item eventKey="4">
                         <Accordion.Header>Fullstack e-Commerce app</Accordion.Header>
                         <Accordion.Body>
                             Fullstack e-commerce app with front and back end integration. <tr></tr>
