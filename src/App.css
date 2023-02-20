@@ -150,3 +150,14 @@
   background-color: #2d5ec7;
   margin-bottom: 100px;
 }
+.portfolioProjectLink:link{
+  color: #2d5ec7;
+  text-decoration: none;
+}
+.portfolioProjectLink:visited{
+  color: #700d74;
+  text-decoration: none;
+}
+.portfolioProjectLink:hover{
+  color: #000000;
+}
